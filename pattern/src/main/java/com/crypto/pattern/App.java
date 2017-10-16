@@ -33,7 +33,6 @@ public class App {
 					// .filter(p->p.getWord().length()==15)
 					// .filter(p->p.getWord().charAt(6)=='E')
 					// .filter(p->p.getWord().charAt(8)=='E')
-					// .filter(p->p.getWord().charAt(14)=='E')
 					.collect(Collectors.toList());
 		} catch (IOException e) {
 			e.printStackTrace();
